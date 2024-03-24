@@ -12,7 +12,7 @@ To test the file, use some example sentences provided in file [`data/example_fea
 
 Here is an example unified sentence frame from our paper:
 
-![Example sentence representations](https://github.com/TaniaBladier/Frame-Semantic-Parser-with-Lexicalized-Grammars/blob/main/img/Example-Frame-Representation.png)
+<img src="https://github.com/TaniaBladier/Frame-Semantic-Parser-with-Lexicalized-Grammars/blob/main/img/Example-Frame-Representation.png" width="400">
 
 
 
