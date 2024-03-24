@@ -14,9 +14,7 @@ Also install the packages from the requirements.txt file.
 
 ## Download language model
 
-- Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (1.7 GB)](https://www.dropbox.com/s/qmtrvieptrd13u6/best_model_mult_bert.zip?dl=0)
-
-### Use downloaded model
+Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (1.7 GB)](https://www.dropbox.com/s/qmtrvieptrd13u6/best_model_mult_bert.zip?dl=0)
 
 Unzip the downloaded model and rename the folder with the unzipped model to "best_model". 
 
