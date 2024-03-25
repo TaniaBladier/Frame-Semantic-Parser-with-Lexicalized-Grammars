@@ -1,20 +1,20 @@
 # Frame Semantic Parser with Lexicalized Grammars
 
 Code and data for paper ["Data-Driven Frame-Semantic Parsing
-with Tree Wrapping Grammar"](https://iwcs.pimoid.fr/42.pdf) from the [IWCS 2023](https://iwcs2023.loria.fr/) conference https://iwcs.pimoid.fr/42.pdf
+with Tree Wrapping Grammar"](https://iwcs.pimoid.fr/42.pdf) from the [IWCS 2023](https://iwcs2023.loria.fr/) conference
 
 The code works with the Python 3.10 version
 
 ## Installation
 
-Install [ParTAGe-TWG](https://github.com/kawu/partage-twg).
+Install [ParTAGe-TWG](https://github.com/kawu/partage-twg)
 
 Also install the packages from the requirements.txt file. 
 
 
 ## Download language model
 
-Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (1.7 GB)](https://www.dropbox.com/s/qmtrvieptrd13u6/best_model_mult_bert.zip?dl=0)
+Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (1.7 GB)](TODO: Dropbox)
 
 Unzip the downloaded model and rename the folder with the unzipped model to "best_model". 
 
