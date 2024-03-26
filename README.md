@@ -15,7 +15,7 @@ Install the packages from the requirements.txt file.
 
 Fine-tuned multitask BERT-based MaChAmp model:	[download (570 MB)](https://www.dropbox.com/scl/fi/2lutfdecw81gg47pcj921/machamp-multitask-model.zip?rlkey=chi2419wtfi66tg9q9n7ryd04&dl=0)
 
-Unzip the model and place it in the folder models, rename it to `machamp-multitask-model`
+Unzip the model and place it in the folder `models`, rename it to `machamp-multitask-model`
 
 ## Machamp
 
@@ -26,7 +26,7 @@ You can check the following repository to find further functionalitites of MaChA
 
 ## Parse sentences
 
-You can parse the sentences using the following command. You have to provide the path to the unzipped multitask model, input data, and an output path.
+You can parse sentences using the following command. You have to provide the path to the unzipped multitask model, input data, and an output path.
 
 You have to specify with the option `--dataset FRAME, LKG, STAG` which task you want to predict.
 
@@ -37,6 +37,12 @@ You have to specify with the option `--dataset FRAME, LKG, STAG` which task you 
 `python3 machamp/predict.py models/machamp-multitask-model/model.tar.gz data/example-input.frames data/example-output.frames --device 0 --dataset FRAME`
 
 Please take a look at the example of [an input file](https://github.com/TaniaBladier/Frame-Semantic-Parser-with-Lexicalized-Grammars/blob/main/data/example-input.frames) and [an the output file](https://github.com/TaniaBladier/Frame-Semantic-Parser-with-Lexicalized-Grammars/blob/main/data/example-output.frames).
+
+The supertags are provided in the 5th column and look like `(NP* (OP-DEF <>))`
+
+The frames are in the 7th column and look like `[COME-AFTER_FOLLOW-IN-TIME]`
+
+The linkings between frames and semantic roles are in the 8th column and look like `[[1, 'Experiencer'], [2, 'Theme']]` where index 1 and 2 show which argument slots in the supertag should be filled with the correspoding role. The index 0 stands for a semantic role which is syntactically implied but not expressed in the supertag.
 
 
 ## Data evaluation
