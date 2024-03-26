@@ -12,13 +12,15 @@ Install [ParTAGe-TWG](https://github.com/kawu/partage-twg)
 Also install the packages from the requirements.txt file. 
 
 
-## Download language model
+## Download fine-tuned language model
 
-Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (570 MB)](https://www.dropbox.com/scl/fi/dcwbqmbbuwtdm29b1whrz/model.tar.gz?rlkey=3py7io41vdpp6o79a5ezi8lik&dl=0)
+Fine-tuned multitask BERT-based MaChAmp model:	[download (570 MB)](https://www.dropbox.com/scl/fi/dcwbqmbbuwtdm29b1whrz/model.tar.gz?rlkey=3py7io41vdpp6o79a5ezi8lik&dl=0)
 
 ## Machamp
 
-You can check the following Machamp repository to find further functionalitites of Machamp:
+We use the [AllenNLP MaChAmp library](https://bitbucket.org/ahmetustunn/mtp/src/master/) which focuses on multi-task learning. It has support for training on multiple datasets for a variety of standard NLP tasks. 
+
+You can check the following repository to find further functionalitites of MaChAmp:
 [MachAmp repository](https://bitbucket.org/ahmetustunn/mtp/src/master/)
 
 ## Parse sentences
