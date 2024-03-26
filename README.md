@@ -25,7 +25,11 @@ You can check the following repository to find further functionalitites of MaChA
 
 ## Parse sentences
 
-Parse a file with sentences using the file parse_twg. 
+You can parse the sentences using the following command. You have to provide it with the model-archive, input data, and an output path:
+
+--dataset FRAME, LKG, STAG
+
+`python3 machamp/predict.py models/model.tar.gz data/example-input.frames data/example-output.frames --device 0 --dataset FRAME`
 
 It takes two arguments - input file with plain sentences and output file. 
 
