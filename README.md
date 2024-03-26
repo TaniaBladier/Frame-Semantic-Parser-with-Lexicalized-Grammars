@@ -3,13 +3,12 @@
 Code and data for paper ["Data-Driven Frame-Semantic Parsing
 with Tree Wrapping Grammar"](https://iwcs.pimoid.fr/42.pdf) from the [IWCS 2023](https://iwcs2023.loria.fr/) conference
 
-The code works with the Python 3.10 version
 
 ## Installation
 
-Install [ParTAGe-TWG](https://github.com/kawu/partage-twg)
+The code works with the Python 3.9.6 version
 
-Also install the packages from the requirements.txt file. 
+Install the packages from the requirements.txt file. 
 
 
 ## Download fine-tuned language model
