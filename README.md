@@ -14,10 +14,12 @@ Also install the packages from the requirements.txt file.
 
 ## Download language model
 
-Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (1.7 GB)](TODO: Dropbox)
+Multitask machamp model:	Fine-tuned bert-base-multilingual-cased model	[download (570 MB)](https://www.dropbox.com/scl/fi/dcwbqmbbuwtdm29b1whrz/model.tar.gz?rlkey=3py7io41vdpp6o79a5ezi8lik&dl=0)
 
-Unzip the downloaded model and rename the folder with the unzipped model to "best_model". 
+## Machamp
 
+You can check the following Machamp repository to find further functionalitites of Machamp:
+[MachAmp repository](https://bitbucket.org/ahmetustunn/mtp/src/master/)
 
 ## Parse sentences
 
