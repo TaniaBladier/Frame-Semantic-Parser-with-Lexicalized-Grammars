@@ -1,0 +1,68 @@
+macro-f1
+
+Code:
+- check comments in code
+- seq2seq performance
+- memory usage
+- redo experiments
+- clean up scripts dir
+- update website
+- filelock error: TypeError: acquire() got an unexpected keyword argument 'poll_interval,  (pip3 install filelock==3.4.0) 
+- check min_count source/target words
+- predict on multiple files while loading only once
+
+known issues:
+- memory usage went up a bit
+- performance seq2seq
+- probdistr has negative loss
+- regression has too high score?
+
+Tests:
+- Performance for each decoder
+
+- Tokenization for each decoder
+- dataset embeddings encoder/decoder
+- dataset smoothing
+- change metrics
+- retrain a machamp model
+- loss weight/class weight
+- predict without gold
+- predict with --raw_text
+
+New feature ideas
+- allow passing of info between tasks
+- change embeddings on command line?
+- heterogeneous batches
+- get performance for multiple dev sets each epoch
+- multiple dataset embeddings?
+- fix prediction after training, shouldnt reload the model so often
+- weight for dev files (or tasks?) for final model-picking (and early stopping?)
+- max_sents should be from shuffle?
+- save num_columns, and use during prediction
+- log the number of unknown words (hard, because tokenizer is not in model)
+- get rid of warnings
+- enable running mlm on other task data simultaneously
+- use AllenNLP FBetaMultiLabelMeasure and multiseqlabelfield?
+- log multiple metrics regardless of the one used for optimization (this would avoid retraining just to get new metrics - e.g., acc+f1, m+M F1, etc.)
+
+
+LOG:
+- specify layers
+- skip first line
+- added probdistr task
+- added regression task
+- use all training data
+- balance labels
+- fixed --raw_text, works for single sentence classification and sequence labeling
+- able to predict without annotation in gold file
+- switched to | for splitting labels in multiseq
+- update to allennlp==2.8.0
+- redid the dataset readers, should be simpler now to update/adapt in future versions
+- removed two dummy labels from label-space for most tasks
+- removed lowercasing of data, as it is done automatically now
+- encoder+decoder embeddings
+- removed hack when some, but not all sentences in a batch are > max_len, as it is resolved in the underlying libraries
+- Use segment ID's like 000011110000 for a three sentence input (where all 0s before)
+- redid the tuning, and updated params.json
+- added xlm-r and rembert configuration files
+

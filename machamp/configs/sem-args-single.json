@@ -1,0 +1,14 @@
+{
+   "ARG": {
+        "train_data_path": "frame_semantic_experiments/data/pmb-gold-train.framessupertag",
+        "validation_data_path": "frame_semantic_experiments/data/pmb-gold-train.framessupertag",
+        "word_idx": 1,
+        "tasks": {
+            "arg": {
+                "task_type": "seq",
+                "column_idx": 6, 
+                "loss_weight": 1.0
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "STAG": {
+        "train_data_path": "data/train.supertag",
+        "validation_data_path": "data/dev.supertag",
+        "word_idx": 1,
+        "tasks": {
+            "stag": {
+                "task_type": "seq",
+                "column_idx": 3
+            }
+        }
+    }
+}

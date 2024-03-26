@@ -1,0 +1,13 @@
+{ 
+    "POS": {
+        "train_data_path": "data/trainposdep.supertag",
+        "validation_data_path": "data/devposdep.supertag",
+        "word_idx": 1,
+        "tasks": {
+            "pos": {
+                "task_type": "seq",
+                "column_idx": 5
+            }
+        }
+    }
+}

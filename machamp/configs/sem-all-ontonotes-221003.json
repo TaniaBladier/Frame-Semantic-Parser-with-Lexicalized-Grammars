@@ -1,0 +1,51 @@
+{
+"STAG": {
+        "train_data_path": "../output_data_frames/ontonotes_exp1_train.frames",
+        "validation_data_path": "../output_data_frames/ontonotes_exp1_dev.frames",
+        "word_idx": 1,
+        "tasks": {
+            "stag": {
+                "task_type": "seq",
+                "column_idx": 4,
+                "loss_weight": 1.0
+            }
+        }
+    },
+    "POS": {
+        "train_data_path": "../output_data_frames/ontonotes_exp1_train.frames",
+        "validation_data_path": "../output_data_frames/ontonotes_exp1_dev.frames",
+        "word_idx": 1,
+        "tasks": {
+            "pos": {
+                "task_type": "seq",
+                "column_idx": 5,
+               "loss_weight": 1.0
+            }
+        }
+    },
+   "ARG": {
+        "train_data_path": "../output_data_frames/ontonotes_exp1_train.frames",
+        "validation_data_path": "../output_data_frames/ontonotes_exp1_dev.frames",
+        "word_idx": 1,
+        "tasks": {
+            "arg": {
+                "task_type": "seq",
+                "column_idx": 6, 
+                "loss_weight": 1.0
+            }
+        }
+    },
+"LKG": {
+        "train_data_path": "../output_data_frames/ontonotes_exp1_train.frames",
+        "validation_data_path": "../output_data_frames/ontonotes_exp1_dev.frames",
+        "word_idx": 1,
+        "tasks": {
+            "lkg": {
+                "task_type": "seq",
+                "column_idx": 7, 
+                "loss_weight": 1.0,
+            }
+        }
+    }
+}
+
