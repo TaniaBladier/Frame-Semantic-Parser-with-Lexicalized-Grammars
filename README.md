@@ -13,7 +13,7 @@ Install the packages from the requirements.txt file.
 
 ## Download fine-tuned language model
 
-Fine-tuned multitask BERT-based MaChAmp model:	[download (570 MB)](https://www.dropbox.com/scl/fi/2lutfdecw81gg47pcj921/machamp-multitask-model.zip?rlkey=chi2419wtfi66tg9q9n7ryd04&dl=0)
+Fine-tuned multitask BERT-based MaChAmp model:	[download (570 MB)](https://drive.google.com/file/d/1netGvKQUzhEVz58DGsW1Soy4LL06AAMv/view?usp=sharing)
 
 Unzip the model and place it in the folder `models`, rename it to `machamp-multitask-model`
 
